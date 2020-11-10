@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>This Keyword</title>
+</head>
+
+<body>
+    <h1 id="a">Say Hi</h1>
+    <h2>Jquery</h2>
+    <h1>Tutorial</h1>
+    <script src="Js/jquery-3.5.1.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            $("#a").click(function () {
+                var a = $(this).html();
+                alert(a);
+                $("h2").click(function () {
+                    alert("Nu Technology");
+                })
+            });
+        });
+    </script>
+</body>
+
+</html>

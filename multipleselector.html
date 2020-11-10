@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Multiple Selectors</title>
+    </head>
+    <body>
+        <i id="a">Hello Kavitha</i>
+        <p class="b">Welcome Nu</p>
+        <script src="Js/jquery-3.5.1.min.js"></script>
+        <script>
+            $("document").ready(function(){
+                $("#a,.b").html("Jquery");
+                $("#a,.b").css("color","blue");
+                
+                //$(".b").html("Javascript");
+            })
+        </script>
+    </body>
+</html>
